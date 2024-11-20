@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grogin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <div class="header-sticky">
+            <div class="leftside">
+                <h3>FREE delivery & 40% Discount for next 3 orders! Place your 1st order in.</h3>
+            </div>
+            <div class="rightside">
+                <h3>Until the end of the sale:</h3>
+                <h2>47</h2>
+                <h3>days</h3>
+                <h2>06</h2>
+                <h3>hours</h3>
+                <h2>52</h2>
+                <h3>minutes</h3>
+                <h2>13</h2>
+                <h3>seconds</h3>
+            </div>
+        </div>
+        <div class="header-hover">
+            <div class="left-hover">
+                <div class="user">
+                    <a href="#">About us</a>
+                    <a href="#">My account</a>
+                    <a href="#">Wishlist</a>
+                </div>
+                <div class="delivery">
+                    <h3>We deliver to you every day from</h3>
+                    <h2>7:00 to 23:00</h2>
+                </div>
+            </div>
+            <div class="right-hover">
+                <div class="dropdown">
+                    <div class="language">
+                     <a href="#">English</a>
+                     <a href="">
+                        <img src="./assets/Vector.svg" alt="dropdown">
+                     </a>
+                    </div>
+                    <div class="payment">
+                        <a href="#">USD</a>
+                        <a href="#">
+                            <img src="./assets/Vector.svg" alt="dropdown">
+                        </a>
+                    </div>
+                    <h3>Order Tracking</h3>
+                </div>
+            </div>
+        </div>
+        <div class="main-header">
+            <a href="" class="logo">
+                <img src="./assets/logo-dark.png.png" alt="logo">
+            </a>
+            <a href="" class="location">
+                <img src="./assets/Link.svg" alt="location button">
+            </a>
+            <div class="delivery-all">
+                <h3>Deliver to</h3>
+                <h2>all</h2>
+            </div>
+            <div class="search-input">
+                <input type="search" autocomplete="off" id="jsinput" placeholder="Search for products, categories or brands...  oninput="filterProducts()">
+                <button type="submit" class="js-button">
+                    <img src="./assets/Search → Button.svg" alt="search button">
+                </button>
+            </div>
+            <div class="account">
+                <a href="">
+                    <img src="./assets/Link1.svg" alt="account">
+                </a>
+                <a href="">Account</a>
+            </div>
+            <div class="wishlist">
+                <a href="">
+                    <img src="./assets/Link2.svg" alt="whishlist">
+                </a>
+                <span>0</span>
+                <a href="">Wishlist</a>
+            </div>
+            <div class="cart">
+                <a href="">
+                    <img src="./assets/Link3.svg" alt="cart">
+                </a>
+                <span>0</span>
+                <a href="">Cart</a>
+            </div>
+        </div>
+        <div class="pages-heading">
+            <div class="leftside">
+                <div class="home">
+                    <h3 class="hover">Home</h3>
+                    <a href="">
+                        <img src="./assets/Vector.svg" alt="">
+                    </a>
+                </div>
+                <div class="shop">
+                    <h3 class="hover">Shop</h3>
+                    <a href="">
+                        <img src="./assets/Vector.svg" alt="">
+                    </a>
+                </div>
+                <h3 class="hover">Fruits & Vegetables</h3>
+                <h3 class="hover">Beverages</h3>
+                <h3 class="hover">Blog</h3>
+                <h3 class="hover">Contact</h3>
+            </div>
+            <div class="rightside">
+                <div class="products">
+                    <h3>Trending Products</h3> 
+                    <a href="">
+                        <img src="./assets/Vector.svg" alt="dropdown">
+                    </a>
+                </div>
+                <div class="sale">
+                    <h3>Almost Finished</h3>
+                    <div class="red">
+                        <h3>sale</h3>
+                    </div>
+                    <a href="">
+                        <img src="./assets/Vector-red.svg" alt="dropdown">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="product-details">
+        <div class="page">
+            <a href="#">Home</a>
+            <a href="">
+                <img src="./assets/Vector.svg" alt="right arrow">
+            </a>
+            <a href="">Fruits & Vegetables</a>
+            <a href="">
+                <img src="./assets/Vector.svg" alt="right arrow">
+            </a>
+            <a href="">Exotic Fruits & Veggies</a> 
+            <a href="">
+                <img src="./assets/Vector.svg" alt="right arrow">
+            </a>
+            <p>Marketside Fresh Organic Bananas, Bunch</p>
+        </div>
+        <div class="details-product" style="padding:40px 10px 0px; display: flex;">
+            <div class="left-product">
+                <div class="fav">
+                    <a href="" class="off">56%</a>
+                </div>
+                <div class="organic" style="margin-top: 10px;">
+                    <a href="">
+                        <img src="./assets/organic.svg" alt="">
+                        <p>ORGANIC</p>
+                    </a>
+                </div>
+                <div class="pro-img" style="position: relative; top: -50px; z-index:-1;">
+                    <img src="./assets/banana2.png" alt="">
+                </div>
+                <div class="fullscreen" style="position:relative; top: -120px;">
+                    <a href="">
+                        <img src="./assets/fullscreen.svg" alt="">
+                    </a>
+                </div>
+                <div class="small" style="height:80px;">
+                    <a href="" class="small-img"><img src="./assets/banana.png" alt="" style="height:100%; margin-right:10px;" ></a>
+                    <a href="" class="small-img"><img src="./assets/bananasmall.png" alt="" style="height:100%; margin-right: 10px;" ></a>
+                    <a href="" class="small-img"><img src="./assets/banana3.png" alt="" style="height:100%;"></a>
+                </div>
+            </div>
+            <div class="right-product">
+                <h1 style="font-size: 38px; font-weight: 700; color:#030712;">Marketside Fresh Organic Bananas, <br>
+                    Bunch</h1>
+                <div class="star-rating" style="display:flex; align-items: center; padding:20px 0px; border-bottom:1px solid #E5E7EB;">
+                    <div class="rating">
+                        <img src="./assets/active-star.svg" alt="">
+                        <img src="./assets/active-star.svg" alt="">
+                        <img src="./assets/active-star.svg" alt="">
+                        <img src="./assets/non-activestar.svg" alt="">
+                        <img src="./assets/non-activestar.svg" alt="">
+                    </div>
+                    <div class="rating" style="border: 1px solid rgba(209, 213, 219, 1); border-radius:6px; margin-left: 10px;">
+                        <span style="font-size: 13px; font-weight: 600; color: #030712; padding: 5px;">3.00</span>
+                    </div>
+                    <span style="font-size: 12px;font-weight: 400; color:#6B7280; margin-left: 5px;">2</span>
+                    <div class="code" style="margin-left: 20px; border-left: 1px solid #E5E7EB;">
+                        <span style="font-size: 13px; font-weight: 400; color:#6B7280; margin-left: 10px;">SKU:</span>
+                        <span style="font-size: 13px;font-weight: 500;color: #030712;">E7F8G9H0</span>
+                    </div>
+                </div>
+                <p style="font-size: 14px;font-weight: 400;color: #4B5563; margin-top: 20px;">Vivamus adipiscing nisl ut dolor dignissim semper. Nulla luctus malesuada tincidunt. Class aptent taciti <br>
+                    sociosqu ad litora torquent Vivamus adipiscing nisl ut dolor dignissim semper.</p>
+                <div class="pricing" style="margin-top: 20px;">
+                    <h5 style="font-size: 30px;font-weight: 700;">$0.50</h5>
+                    <h6 style="font-size: 21px; font-weight:500; text-decoration: line-through;">$1.99</h6>
+                </div>
+                <button style="margin-top: 20px; font-size: 14px; font-weight: 700; color:#FFFF; background:#16A34A;padding:20px 20px; border-radius:8px; border:none; cursor: pointer;">Order on WhatsApp</button>
+                <div class="special-offer" style="display:flex;align-items:center; margin-top: 15px; padding:15px 15px; border-radius:6px; background: #FFF7ED; border: 1px solid #FFEDD5">
+                    <span style="font-size: 13px;font-weight: 700;color: #EA580C;">Special Offer :</span>
+                    <div class="timer" style="display:flex;">
+                        <div class="time" style="background: #FFEDD5; padding: 10px;margin-right: 5px; border-radius: 6px; border: 1px solid #FED7AA; margin-left: 10px;">
+                            <h6 style="font-size: 13px;font-weight: 600; color: #C2410C;">81</h6>
+                        </div>
+                        <div class="time" style="background: #FFEDD5; padding: 10px;margin-right: 5px; border-radius: 6px; border: 1px solid #FED7AA">
+                            <h6 style="font-size: 13px;font-weight: 600; color: #C2410C;">06</h6>
+                        </div>
+                        <div class="time" style="background: #FFEDD5; padding: 10px;margin-right: 5px; border-radius: 6px; border: 1px solid #FED7AA">
+                            <h6 style="font-size: 13px;font-weight: 600; color: #C2410C;">50</h6>
+                        </div>
+                        <span style="display:block;align-self: center;margin-right: 5px; font-size: 16px;
+                        font-weight: 400; color: #030712;">:</span>
+                        <div class="time" style="background: #FFEDD5; padding: 10px;margin-right: 5px; border-radius: 6px; border: 1px solid #FED7AA">
+                            <h6 style="font-size: 13px;font-weight: 600; color: #C2410C;">02</h6>
+                        </div>
+                        <span style="font-size: 11px;font-weight: 400;color: #6B7280; margin-left: 15px; display: block; align-self: center;">Remains until the end of the offer.</span>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <div class="selector">
+                        <a href="">
+                            <img src="./assets/Icon.svg" alt="">
+                        </a>
+                        <h1>1</h1>
+                        <a href="">
+                            <img src="./assets/polusIcon.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="cart-button">
+                        <a href="">
+                            <img src="./assets/cartIcon.svg" alt="">
+                        </a>
+                        <a href="">Add to cart</a>
+                    </div>
+                    <div class="cart-button">
+                        <a href="">
+                            <img src="./assets/cartIcon.svg" alt="">
+                        </a>
+                        <a href="">Add to cart</a>
+                    </div>
+                </div>
+                <div class="item-payment">
+                    <div class="cardpayment">
+                        <a href="">
+                            <img src="./assets/card.svg" alt="">
+                        </a>
+                        <h1>Payment.</h1>
+                        <span>Payment upon receipt of goods, Payment by card in the department, Google Pay,<br>
+                            Online card, -5% discount in case of payment</span>
+                    </div>
+                    <div class="cardpayment">
+                        <a href="">
+                            <img src="./assets/warrentyIcon.svg" alt="">
+                        </a>
+                        <h1>Warranty.</h1>
+                        <span>The Consumer Protection Act does not provide for the return of this product of proper <br>
+                            quality.</span>
+                    </div>
+                </div>
+                <div class="share-compare">
+                    <div class="icon">
+                        <a href="">
+                            <img src="./assets/wishlist.svg" alt="">
+                        </a>
+                    </div>
+                    <a href="">Add to wishlist</a>
+                    <div class="icon">
+                        <a href="">
+                            <img src="./assets/share.svg" alt="">
+                        </a>
+                    </div>
+                    <a href="">Share this Product</a>
+                    <div class="icon">
+                        <a href="">
+                            <img src="./assets/compare.svg" alt="">
+                        </a>
+                    </div>
+                    <a href="">Compare</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="reviews">
+        <div class="des-rev">
+            <a href="" class="a">Description</a>
+            <a href="" class="a">Reviews (2)</a>
+        </div>
+        <p>Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat ligula. Fusce <br>
+            fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia. Nullam aliquam mauris eu <br>
+            accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare vel, dignissim a tortor.</p>
+        <p>Morbi ut sapien vitae odio accumsan gravida. Morbi vitae erat auctor, eleifend nunc a, lobortis neque. Praesent aliquam dignissim viverra. Maecenas lacus odio, feugiat eu nunc sit amet, <br>
+maximus sagittis dolor. Vivamus nisi sapien, elementum sit amet eros sit amet, ultricies cursus ipsum. Sed consequat luctus ligula. Curabitur laoreet rhoncus blandit. Aenean vel diam ut <br>
+arcu pharetra dignissim ut sed leo. Vivamus faucibus, ipsum in vestibulum vulputate, lorem orci convallis quam, sit amet consequat nulla felis pharetra lacus. Duis semper erat mauris, sed <br>
+egestas purus commodo vel.</p>
+    </section>
+    <section id="related">
+        <h1>Related products</h1>
+        <div class="product-list">
+            <div class="product-card" id="potato">
+              <div class="fav">
+                  <a href="" class="off">75%</a>
+                  <a href="" class="whish">
+                      <img src="./assets/fav.svg" alt="">
+                  </a>
+              </div>
+              <div class="product-image">
+                  <img src="./assets/Link → 1-39-500x500.jpg.png" alt="">
+              </div>
+              <div class="slider">
+                  <a href="">
+                      <img src="./assets/slider.svg" alt="">
+                  </a>
+              </div>
+              <div class="organic">
+                  <a href="">
+                      <img src="./assets/organic.svg" alt="">
+                      <p>ORGANIC</p>
+                  </a>
+              </div>
+              <h4>Yellow Potatoes Whole  <br>
+                  Fresh, 5lb Bag</h4>
+              <div class="rating">
+                  <img src="./assets/active-star.svg" alt="">
+                  <img src="./assets/active-star.svg" alt="">
+                  <img src="./assets/active-star.svg" alt="">
+                  <img src="./assets/active-star.svg" alt="">
+                  <img src="./assets/half-activestar.svg" alt="">
+                  <span>4.5</span>
+              </div>
+              <div class="pricing">
+                  <h5>$0.50</h5>
+                  <h6>$1.99</h6>
+              </div>
+              <div class="stock">
+                  <a href="" class="button">
+                      <img src="./assets/cart.svg" alt="">
+                  </a>
+                  <span>In Stock</span>
+              </div>
+            </div>
+            <div class="product-card" id="peach">
+              <div class="fav">
+                  <a href="" class="off">58%</a>
+                  <a href="" class="whish">
+                      <img src="./assets/fav.svg" alt="">
+                  </a>
+              </div>
+              <div class="product-image">
+                  <img src="./assets/peach.png" alt="">
+              </div>
+              <div class="slider">
+                  <a href="">
+                      <img src="./assets/slider.svg" alt="">
+                  </a>
+              </div>
+              <div class="organic">
+                  <!-- <a href="">
+                      <img src="./assets/organic.svg" alt="">
+                      <p>ORGANIC</p>
+                  </a> -->
+              </div>
+              <h4>Peach – each</h4>
+              <div class="rating">
+                  <img src="./assets/active-star.svg" alt="">
+                  <img src="./assets/active-star.svg" alt="">
+                  <img src="./assets/active-star.svg" alt="">
+                  <img src="./assets/half-activestar.svg" alt="">
+                  <img src="./assets/non-activestar.svg" alt="">
+                  <span>3.5</span>
+              </div>
+              <div class="pricing">
+                  <h5>$0.75</h5>
+                  <h6>$1.75</h6>
+              </div>
+              <div class="stock">
+                  <a href="" class="button">
+                      <img src="./assets/cart.svg" alt="">
+                  </a>
+                  <span>In Stock</span>
+              </div>
+            </div>
+            <!-- another 5 contents -->
+            <div class="product-card" id="wraps">
+              <div class="fav">
+                  <a href="" class="off">16%</a>
+                  <a href="" class="whish">
+                      <img src="./assets/fav.svg" alt="">
+                  </a>
+              </div>
+              <div class="product-image">
+                  <img src="./assets/spinach.png" alt="">
+              </div>
+              <div class="slider">
+                  <!-- <a href="">
+                      <img src="./assets/slider3.svg" alt="">
+                  </a> -->
+              </div>
+              <div class="organic">
+                  <!-- <a href="">
+                      <img src="./assets/organic.svg" alt="">
+                      <p>ORGANIC</p>
+                  </a> -->
+              </div>
+              <h4>Large Garden Spinach & <br>
+                  Herb Wrap Tortillas –…</h4>
+              <div class="rating">
+                  <img src="./assets/active-star.svg" alt="">
+                  <img src="./assets/active-star.svg" alt="">
+                  <img src="./assets/active-star.svg" alt="">
+                  <img src="./assets/active-star.svg" alt="">
+                  <img src="./assets/non-activestar.svg" alt="">
+                  <span>4</span>
+              </div>
+              <div class="pricing">
+                  <h5>$27.90</h5>
+                  <h6>$32.90</h6>
+              </div>
+              <div class="stock">
+                  <a href="" class="button">
+                      <img src="./assets/cart.svg" alt="">
+                  </a>
+                  <span>In Stock</span>
+              </div>
+            </div>
+            <div class="product-card" id="eggplant">
+              <div class="fav">
+                  <a href="" class="off">26%</a>
+                  <a href="" class="whish">
+                      <img src="./assets/fav.svg" alt="">
+                  </a>
+              </div>
+              <div class="product-image">
+                  <img src="./assets/eggplant.png" alt="">
+              </div>
+              <div class="slider">
+                  <a href="">
+                      <img src="./assets/slider.svg" alt="">
+                  </a>
+              </div>
+              <div class="organic">
+                  <!-- <a href="">
+                      <img src="./assets/organic.svg" alt="">
+                      <p>ORGANIC</p>
+                  </a> -->
+              </div>
+              <h4>Fresh Purple Eggplant</h4>
+              <div class="rating">
+                  <img src="./assets/active-star.svg" alt="">
+                  <img src="./assets/active-star.svg" alt="">
+                  <img src="./assets/active-star.svg" alt="">
+                  <img src="./assets/active-star.svg" alt="">
+                  <img src="./assets/non-activestar.svg" alt="">
+                  <span>4</span>
+              </div>
+              <div class="pricing">
+                  <h5>$2.99</h5>
+                  <h6>$3.99</h6>
+              </div>
+              <div class="stock">
+                  <a href="" class="button">
+                      <img src="./assets/cart.svg" alt="">
+                  </a>
+                  <span>In Stock</span>
+              </div>
+            </div>
+            <!-- next 5 contents -->
+            <div class="product-card" id="Cauliflower">
+              <div class="fav">
+                  <a href="" class="off">14%</a>
+                  <a href="" class="whish">
+                      <img src="./assets/fav.svg" alt="">
+                  </a>
+              </div>
+              <div class="product-image">
+                  <img src="./assets/cauliflower.png" alt="">
+              </div>
+              <div class="slider">
+                  <a href="">
+                      <img src="./assets/slider.svg" alt="">
+                  </a>
+              </div>
+              <div class="organic">
+                  <!-- <a href="">
+                      <img src="./assets/organic.svg" alt="">
+                      <p>ORGANIC</p>
+                  </a> -->
+              </div>
+              <h4>Fresh Cauliflower, Each</h4>
+              <div class="rating">
+                  <img src="./assets/active-star.svg" alt="">
+                  <img src="./assets/active-star.svg" alt="">
+                  <img src="./assets/active-star.svg" alt="">
+                  <img src="./assets/non-activestar.svg" alt="">
+                  <img src="./assets/non-activestar.svg" alt="">
+                  <span>3</span>
+              </div>
+              <div class="pricing">
+                  <h5>$12.79</h5>
+                  <h6>$14.79</h6>
+              </div>
+              <div class="stock">
+                  <a href="" class="button">
+                      <img src="./assets/cart.svg" alt="">
+                  </a>
+                  <span>In Stock</span>
+              </div>
+            </div>
+            <div class="product-card" id="broccolli">
+              <div class="fav">
+                  <a href="" class="off">36%</a>
+                  <a href="" class="whish">
+                      <img src="./assets/fav.svg" alt="">
+                  </a>
+              </div>
+              <div class="product-image">
+                  <img src="./assets/broccolli.png" alt="">
+              </div>
+              <div class="slider">
+                  <!-- <a href="">
+                      <img src="./assets/slider.svg" alt="">
+                  </a> -->
+              </div>
+              <div class="organic">
+                  <!-- <a href="">
+                      <img src="./assets/organic.svg" alt="">
+                      <p>ORGANIC</p>
+                  </a> -->
+              </div>
+              <h4>Fresh Broccoli Crowns, Each</h4>
+              <div class="rating">
+                  <img src="./assets/active-star.svg" alt="">
+                  <img src="./assets/active-star.svg" alt="">
+                  <img src="./assets/active-star.svg" alt="">
+                  <img src="./assets/active-star.svg" alt="">
+                  <img src="./assets/non-activestar.svg" alt="">
+                  <span>4</span>
+              </div>
+              <div class="pricing">
+                  <h5>$11.54</h5>
+                  <h6>$17.88</h6>
+              </div>
+              <div class="stock">
+                  <a href="" class="button">
+                      <img src="./assets/cart.svg" alt="">
+                  </a>
+                  <span>In Stock</span>
+              </div>
+            </div>
+          </div>
+    </section>
+    <section id="footer">
+        <div class="newsletter">
+            <div class="left">
+                <h4>Join our newsletter for £10 offs</h4>
+                <p>Register now to get latest updates on promotions & <br>
+                    coupons.Don’t worry, we not spam!</p>
+            </div>
+            <div class="input-container">
+             <div class="right">
+                    <span><img src="./assets/mail.svg" alt=""></span>
+                    <input type="email" placeholder="Enter your email address">
+                    <button type="submit">SEND</button>
+             </div>
+             <div class="privacy-policy">
+                <h6>By subscribing you agree to our</h6>
+                <span class="red">Terms & Conditions and Privacy & Cookies Policy.</span>
+             </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="help-info">
+                <h3>Do You Need Help ?</h3>
+                <p>Autoseligen syr. Nek diarask fröbomba. Nör <br>
+                    antipol kynoda nynat. Pressa fåmoska.</p>
+                <div class="contact">
+                    <div class="phone">
+                        <a href=""><img src="./assets/phone.svg" alt=""></a>
+                    </div>
+                    <div class="number">
+                        <p>Monday-Friday: 08am-9pm</p>
+                        <a href="">0 800 300-353</a>
+                    </div>
+                </div>
+                <div class="email">
+                    <div class="icon">
+                        <a href="">
+                            <img src="./assets/email.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="address">
+                        <p>Need help with your order?</p>
+                        <a href="">info@example.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="money">
+                <h3>Make Money with Us</h3>
+                <li><a href="">Sell on Grogin</a></li>
+                <li><a href="">Sell Your Services on Grogin</a></li>
+                <li><a href="">Sell on Grogin Business</a></li>
+                <li><a href="">Sell Your Apps on Grogin</a></li>
+                <li><a href="">Become an Affilate</a></li>
+                <li><a href="">Advertise Your Products</a></li>
+                <li><a href="">Sell-Publish with Us</a></li>
+                <li><a href="">Become an Blowwe Vendor</a></li>
+            </div>
+            <div class="money">
+                <h3>Let Us Help You</h3>
+                <li><a href="">Accessibility Statement</a></li>
+                <li><a href="">Your Orders</a></li>
+                <li><a href="">Returns & Replacements</a></li>
+                <li><a href="">Shipping Rates & Policies</a></li>
+                <li><a href="">Refund and Returns Policy</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Terms and Conditions</a></li>
+                <li><a href="">Cookie Settings</a></li>
+                <li><a href="">Help Center</a></li>
+            </div>
+            <div class="money">
+                <h3>Get to Know Us</h3>
+                <li><a href="">Careers for Grogin</a></li>
+                <li><a href="">About Grogin</a></li>
+                <li><a href="">Inverstor Relations</a></li>
+                <li><a href="">Grogin Devices</a></li>
+                <li><a href="">Customer reviews</a></li>
+                <li><a href="">Social Responsibility</a></li>
+                <li><a href="">Store Locations</a></li>
+            </div>
+            <div class="download">
+                <h3>Download Our App</h3>
+                <div class="gplay">
+                    <a href="" class="img">
+                        <img src="./assets/google-play.png" alt="">
+                    </a>
+                    <a href="">Download App Get <br>
+                        -10% Discount</a>
+                </div>
+                <div class="gplay">
+                    <a href="" class="img">
+                        <img src="./assets/appstore.png" alt="">
+                    </a>
+                    <a href="">Download App Get <br>
+                        -10% Discount</a>
+                </div>
+                <div class="media">
+                    <h3>
+                        Follow us on social media:
+                    </h3>
+                    <div class="social-media">
+                        <a href="https://facebook.com"><img src="./assets/facebook.svg" alt=""></a>
+                        <a href="https://x.com"><img src="./assets/x-solid.svg" alt=""></a>
+                        <a href="https://instagram.com"><img src="./assets/insta.svg" alt=""></a>
+                        <a href="https://linkedin.com"><img src="./assets/linkedin.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="payment">
+                    <a href="">Copyright 2024 © Grogin WooCommerce WordPress Theme. All right reserved. Powered by</a>
+                    <span>KLBTheme.</span>
+                <div class="methods">
+                    <a href=""><img src="./assets/visa.png" alt=""></a>
+                    <a href=""><img src="./assets/rupay.png" alt=""></a>
+                    <a href=""><img src="./assets/paypal.png" alt=""></a>
+                    <a href=""><img src="./assets/skrill.png" alt=""></a>
+                    <a href=""><img src="./assets/klarna.png" alt=""></a>
+                </div>
+            </div>
+            <div class="terms">
+                <ul>
+                    <li><a href="">Terms and Conditions</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Order Tracking</a></li>
+                </ul>
+            </div>
+        </footer>
+    </section>
+    <script src="./scrpt.js"></script>
+</body>
+</html>
